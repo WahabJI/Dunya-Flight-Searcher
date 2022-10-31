@@ -1,2 +1,2 @@
 # Dunya-Flight-Searcher
-Dunya is a flight search engine made to find destinations that meet personal traveler preferences.
+Dunya is a flight search engine made to find destinations that meet personal traveler preferences. This project started out at the CodeRED 2022 Hackathon and is being continued here.
