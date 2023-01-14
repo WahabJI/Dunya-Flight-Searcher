@@ -11,17 +11,17 @@ import { useState } from 'react'
                 <div className="flex flex-row justify-evenly w-full gap-x-5 mt-4 mb-4 my-3 text-center">
                 <RadioGroup.Option value="Backpacker">
                     {({ checked }) => (
-                        <p className={checked ? 'rounded-lg border-2 w-auto border-shallow_aqua bg-shallow_aqua px-2 py-1 hover:opacity-80' : ''}>Backpacker</p>
+                        <button type = "button" className={checked ? 'rounded-lg border-2 w-auto border-shallow_aqua bg-shallow_aqua px-2 py-1 hover:opacity-80' : ''}>Backpacker</button>
                     )}
                     </RadioGroup.Option>
                     <RadioGroup.Option value="Mid-Range">
                     {({ checked }) => (
-                        <p className={checked ? 'rounded-lg border-2 w-auto border-shallow_aqua bg-shallow_aqua px-2 py-1 hover:opacity-80' : ''}>Mid-Range</p>
+                        <button type = "button" className={checked ? 'rounded-lg border-2 w-auto border-shallow_aqua bg-shallow_aqua px-2 py-1 hover:opacity-80' : ''}>Mid-Range</button>
                     )}
                     </RadioGroup.Option>
                     <RadioGroup.Option value="Splurger">
                     {({ checked }) => (
-                        <p className={checked ? 'rounded-lg border-2 w-auto border-shallow_aqua bg-shallow_aqua px-2 py-1 hover:opacity-80' : ''}>Splurger</p>
+                        <button type = "button" className={checked ? 'rounded-lg border-2 w-auto border-shallow_aqua bg-shallow_aqua px-2 py-1 hover:opacity-80' : ''}>Splurger</button>
                     )}
                     </RadioGroup.Option>
                 </div>

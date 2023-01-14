@@ -6,7 +6,7 @@ const Budget = (props:any) => {
     return (
         <div>
             <h3 className="text-marine text-center text-xl font-semibold mb-4">
-                Choose Your Budget
+                Choose Your Budget.
             </h3>
             <div className="flex flex-row justify-center w-full">
                 <div className="flex flex-row justify-center gap-x-16 pb-10 mx-auto">

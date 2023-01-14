@@ -7,21 +7,21 @@ import { useState } from 'react'
 
     return (
         <div>
-        <RadioGroup value={plan} onChange={setPlan}>
+            <RadioGroup value={plan} onChange={setPlan}>
                 <div className="flex flex-row gap-x-9 ml-1 mt-6 mr-3">
-                    <RadioGroup.Option value="roundtrip">
+                    <RadioGroup.Option value={"roundtrip"}>
                     {({ checked }) => (
-                        <span className={checked ? 'rounded-lg bg-shallow_aqua px-2 py-1 hover:opacity-80' : ''}>Roundtrip</span>
+                        <button type = "button" className={checked ? 'rounded-lg bg-shallow_aqua px-2 py-1 hover:opacity-80' : ''}>Roundtrip</button>
                     )}
                     </RadioGroup.Option>
                     <RadioGroup.Option value="one-way">
                     {({ checked }) => (
-                        <span className={checked ? 'rounded-lg bg-shallow_aqua px-2 py-1 hover:opacity-80' : ''}>One-Way</span>
+                        <button type = "button" className={checked ? 'rounded-lg bg-shallow_aqua px-2 py-1 hover:opacity-80' : ''}>One-Way</button>
                     )}
                     </RadioGroup.Option>
                     <RadioGroup.Option value="multi-city">
                     {({ checked }) => (
-                        <span className={checked ? 'rounded-lg bg-shallow_aqua px-2 py-1 hover:opacity-80' : ''}>Multi-City</span>
+                        <button type = "button" className={checked ? 'rounded-lg bg-shallow_aqua px-2 py-1 hover:opacity-80' : ''}>Multi-City</button>
                     )}
                     </RadioGroup.Option>
                 </div>
