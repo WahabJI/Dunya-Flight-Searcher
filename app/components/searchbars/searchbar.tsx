@@ -2,7 +2,6 @@
 import TripButton from '../button/tripButton'
 import Link from 'next/link'
 import {useState} from "react"
-import { useRouter } from 'next/router';
 
 
 
@@ -95,7 +94,7 @@ const SearchBar = () => {
                 <button
                     type = "submit" 
                     className = "bg-marine hover:bg-deep_marine text-white text-center text-sm font-bold px-4 py-0.5 leading-tight rounded w-24 h-9 ml-1 mt-6">
-                    <Link href="/api/searchFlights" className="no-underline text-white">Search ➜</Link>
+                    {/* <Link href="/api/searchFlights" className="no-underline text-white">Search ➜</Link> */}
                 </button>
                 
             </div>
